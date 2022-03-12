@@ -1,0 +1,109 @@
+
+/*GENERAL*/
+body {
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*HEADER*/
+header {
+    background-color: #d35649;
+    display: flex;
+}
+header div .pt-3 a {
+    color: #ffffff;
+    text-shadow: 2px 2px #98a5a5;
+    text-decoration: none;
+}
+header div ul {
+    position: relative;
+    display: flex; 
+}
+header div ul li {
+    text-align: justify;
+}
+header div li a{
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    text-decoration: none;
+}
+header ul li a img {
+    fill: #ffffff;
+}
+
+/*MAIN*/
+#search .container1 {
+    display: flex;
+    height: auto;
+    padding: 3%;
+    max-width: 100%;
+    background-image: url("assets/Images/group-1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#near-you .w-100 {
+    background-color: #d35649;
+    max-width: fit-content;
+    padding: 0.5%;
+}
+#near-you .w-100 .col-8 button {
+    color:#d35649;
+    font-size: smaller;
+}
+#near-you .w-100 .col-8 .small1 {
+    font-size: smaller;
+}
+#connecting-you .connecting {
+    background-color: #98a5a5;
+    max-width: fit-content;
+    padding: 0.5%;
+}
+#connecting-you .connecting .col-8 .small2 {
+    font-size: smaller;
+}
+#connecting-you .connecting .col-8 button {
+    color: #509bd7;
+    font-size: smaller;
+}
+#spreding-love .spreding {
+    background-color: #509bd7;
+    max-width: fit-content;
+    padding: 0.5%;
+}
+#spreding-love .spreding .col-8 .small3 {
+    font-size: smaller;
+}
+
+/*FOOTER*/
+
+#footer-top .size {
+    font-size: small;
+    border-style: solid hidden solid hidden;
+    border-color: #ffffff;
+}
+#footer-top .size a {
+    color: #ffffff;
+    text-decoration: none;
+}
+#footer-midle .row .col-4 {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+#footer-middle .input-group {
+    width: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+#footer-bottom .container-fluid {
+    background-color: #444;
+    max-width: fit-content;
+}
+#footer-bottom .col-4 {
+    color:#98a5a5;
+}
